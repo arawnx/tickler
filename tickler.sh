@@ -2,7 +2,7 @@
 YEAR=$(date +%Y)
 MONTH=$(date +%m)
 DAY=$(date +%d)
-HOME='/Users/xander'
+HOME='/Users/your-name-here'
 TICKLERDIR="$HOME/Documents/gtd/tickler"
 FILE="$TICKLERDIR/$YEAR/$MONTH/$DAY.txt"
 if [ -f $FILE ];
